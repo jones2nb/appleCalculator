@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sytling.css">
+</head>
+<body>
+    <div class="calculator">
+        <div id="results">
+            <p id="result-text">0</p>
+        </div>
+        <div class="arithmetic">
+            <div class="top">
+                <div class="circles">
+                    <button class="top-left" id="clear-button" type="button">
+                        <p class="symbol black">
+                            AC
+                        </p>
+                    </button>
+                </div>
+                <div class="circles plusminus">
+                    <button class="top-left" id="plusAndMinus" type="button">
+                        <p class="symbol black">
+                            &plusmn;
+                        </p>
+                    </button>
+                </div>
+                <div class="circles mod">
+                    <button class="top-left" id="mod" type="button">
+                        <p class="symbol black">
+                            &percnt;
+                        </p>
+                    </button>
+                </div>
+                <div class="circles divide">
+                    <button id="division-symbol" type="button">
+                        <p class="symbol" id="divisionSymbol">
+                            &divide;
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="second">
+                <div class="circles">
+                    <button class="dot numbers" id="7" type="button">
+                        <p class="symbol" id="text">
+                            7
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="8" type="button">
+                        <p class="symbol" id="text">
+                            8
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="9" type="button">
+                        <p class="symbol" id="text">
+                            9
+                        </p>
+                    </button>
+                </div>
+                <div class="circles mult">
+                    <button id="multiplication-symbol" type="button">
+                        <div id="multiplicationHolder">
+                            <p class="symbol" id="multiplicationSymbol">
+                                &#215;
+                            </p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <div class="third">
+                <div class="circles">
+                    <button class="dot numbers" id="4" type="button">
+                        <p class="symbol" id="text">
+                            4
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="5" type="button">
+                        <p class="symbol" id="text">
+                            5
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="6" type="button">
+                        <p class="symbol" id="text">
+                            6
+                        </p>
+                    </button>
+                </div>
+                <div class="circles minus">
+                    <button id="minus-symbol" type="button">
+                        <p class="symbol" id="minusSymbol">
+                            &minus;
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="fourth">
+                <div class="circles">
+                    <button class="dot numbers" id="1" type="button">
+                        <p class="symbol" id="text">
+                            1
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="2" type="button">
+                        <p class="symbol" id="text">
+                            2
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="3" type="button">
+                        <p class="symbol" id="text">
+                            3
+                        </p>
+                    </button>
+                </div>
+                <div class="circles plus">
+                    <button id="plus-symbol" type="button">
+                        <p class="symbol" id="additionSymbol">
+                            &plus;
+                        </p>
+                    </button>
+                </div>
+            </div>
+            <div class="fifth">  
+                <div class="zeroContainer">      
+                    <button class="zeroCircleRight" id="0" name="zeroButton" type="button"></button>
+                    <button class="zerodot" id="0" name="zeroButton" type="button"></button>
+                    <button class="zeroCircle" id="0" name="zeroButton" type="button">
+                        <p class="zeroSymbol">
+                            0
+                        </p>
+                    </button>   
+                </div>
+                <div class="circles">
+                    <button class="dot numbers" id="decimal" type="button">
+                        <p class="symbol">
+                            .
+                        </p>
+                    </button>
+                </div>
+                <div class="circles">
+                    <button id="equals-symbol" type="button">
+                        <p class="symbol" id="equalsSymbol">
+                            &equals;
+                        </p>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>
